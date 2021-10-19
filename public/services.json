@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "RBC",
+        "price": "3000",
+        "description": "Red blood cells (RBC) are made in the bone marrow and contain hemoglobin, a protein that carries oxygen to the tissues in the body. These cells are also known as erythrocytes.",
+        "img": "https://i.ibb.co/hLBKk27/blood.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Blood Pressure",
+        "price": "1000",
+        "description": "The only way to know if you have high blood pressure (HBP, or hypertension) is to have your blood pressure tested. Understanding your results is key to controlling high blood pressure.",
+        "img": "https://i.ibb.co/jDKxN6r/bp-test.jpg"
+    },
+    {
+        "id": 3,
+        "name": "COVID test",
+        "price": "5000",
+        "description": "Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.",
+        "img": "https://i.ibb.co/2jn5BNt/covid-test.jpg"
+    },
+    {
+        "id": 4,
+        "name": "ECG",
+        "price": "2000",
+        "description": "Electrocardiography is the process of producing an electrocardiogram. It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin.",
+        "img": "https://i.ibb.co/3sfpD3j/ecg.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Emergency Ambulance Service",
+        "price": "5000",
+        "description": "24 hours ambulance service available .Many of our ambulance models have integrated alarm and work lights. Integrated lights are beautifully following with the shapes of the basic vehicle design.",
+        "img": "https://i.ibb.co/59VP5nJ/emergency.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lasik",
+        "price": "50000",
+        "description": "LASIK or Lasik, commonly referred to as laser eye surgery or laser vision correction, is a type of refractive surgery for the correction of myopia, hyperopia, and astigmatism.",
+        "img": "https://i.ibb.co/4Vrj23q/lasik.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Counseling",
+        "price": "2000/H",
+        "description": "A mental health counselor, or counselor, is a person who works with individuals and groups to promote optimum mental and emotional health",
+        "img": "https://i.ibb.co/L80SnPX/mental-counsiling.jpg"
+    },
+    {
+        "id": 8,
+        "name": "CBC",
+        "price": "1000",
+        "description": "A complete blood count, also known as a full blood count, is a set of medical laboratory tests that provide information about the cells in a person's blood. ",
+        "img": "https://i.ibb.co/7KChF4R/rbc.jpg"
+    },
+    {
+        "id": 9,
+        "name": "City Scan",
+        "price": "10000",
+        "description": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image.",
+        "img": "https://i.ibb.co/9rpL69w/city-scan.jpg"
+    }
+]
