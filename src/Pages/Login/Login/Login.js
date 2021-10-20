@@ -46,29 +46,33 @@ const Login = () => {
     //end
     return (
         <div>
-            <h2>Please Login</h2>
-            <br />
+            <h2 className="text-primary">Please Login</h2>
+            <br /><br /><br />
+
             <form onSubmit={handleRegistration}>
-                <label htmlFor="email">Email :</label>
-                <input onBlur={handleEmailChangr} type="email" placeholder="Enter your email" required />
-                <br />
-                <br />
-                <label htmlFor="email">Password :</label>
-                <input onBlur={handlePasswordChangr} type="password" placeholder="password" required />
-                <div className="mb-3 text-danger">{error}</div>
-                <br />
+                <div className="container">
 
+                    <div className="mb-3">
+                        <label for="exampleInputEmail1" className="form-label">Email address :</label>
+                        <input onBlur={handleEmailChangr} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div className="mb-3">
+                        <label for="exampleInputPassword1" className="form-label">Password :</label>
+                        <input onBlur={handlePasswordChangr} type="password" className="form-control" id="exampleInputPassword1" required />
+                    </div>
+                    <div className="row-mb-3 text-danger"></div>
+                    <button type="submit" className="btn btn-primary">Sign In</button>
 
-                <br />
-                <div className="row-mb-3 text-danger"></div>
-                <br />
-                <button className="btn btn-warning">Sign In</button>
-
+                </div>
             </form>
+
             <br />
             <br />
             <br />
-            <button onClick={handleGoogleLogin} className="btn btn-warning">Google Sign In</button>
+            <br />
+            <br />
+            <button onClick={handleGoogleLogin} type="submit" className="btn btn-primary">Google Sign In</button>
             <br />
             <Link to="/register">New User?</Link>
         </div>

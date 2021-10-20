@@ -1,4 +1,6 @@
 import React from 'react';
+import './Specialists.css';
+import { Card } from 'react-bootstrap';
 
 import doctor1 from '../../../images/specialist/doctor1.jpg'
 import doctor2 from '../../../images/specialist/doctor2.jpg'
@@ -84,13 +86,16 @@ const Specialists = () => {
         <div id="specialists" className="container">
             <h2 className="text-primary mt-5">Our Specialists</h2>
             <div className="row">
+
                 {
                     specialists.map(specialist => <Specialist
                         key={specialist.name}
                         specialist={specialist}
                     ></Specialist>)
                 }
+
             </div>
+
         </div>
     );
 };

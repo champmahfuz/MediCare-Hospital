@@ -15,8 +15,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3 className="bg-dark">Specialized Operation Theater </h3>
-                        <p className="bg-dark">All facilities & all new technology remain in the operation theater</p>
+                        <h3>Specialized Operation Theater </h3>
+                        <p >All facilities & all new technology remain in the operation theater</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +27,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="bg-dark">All kinds of diagnosis test</h3>
-                        <p className="bg-dark">Here available all kinds of diagnosis test in cheap rate with special doctor </p>
+                        <h3 >All kinds of diagnosis test</h3>
+                        <p >Here available all kinds of diagnosis test in cheap rate with special doctor </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="text-white bg-dark">Emergency Service</h3>
-                        <p className="bg-dark">24 hours emergency service available here & always ensure best service</p>
+                        <h3 >Emergency Service</h3>
+                        <p>24 hours emergency service available here & always ensure best service</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

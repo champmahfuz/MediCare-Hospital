@@ -40,25 +40,34 @@ const Register = () => {
     }
     return (
         <div>
-            <br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br />
             <h2 className="text-primary">Please Register</h2>
-            <form onSubmit={handleRegistration} >
-                <label htmlFor="email">Email :</label>
-                <input onBlur={handleEmailChange} type="email" placeholder="Enter your email" required />
-                <br />
-                <br />
-                <label htmlFor="email">Password :</label>
-                <input onBlur={handlePasswordChange} type="password" placeholder="password" required />
-                <br />
+            <form onSubmit={handleRegistration}>
+                <div className="container">
+                    <div className="container">
+                        <div className="container">
+                            <div className="mb-3">
+                                <label for="exampleInputEmail1" className="form-label">Email address:</label>
+                                <input onBlur={handleEmailChange} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+                                <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div className="mb-3">
+                                <label for="exampleInputPassword1" className="form-label">Password:</label>
+                                <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" />
+                            </div>
 
-
-                <br />
-                <div className="row-mb-3 text-danger">{error}</div>
-                <br />
-                <input type="submit" value="Register" />
+                            <div className="row-mb-3 text-danger">{error}</div>
+                            <button type="submit" className="btn btn-primary">Register</button>
+                        </div>
+                    </div>
+                </div>
             </form>
+
+            {/* bootstrap end */}
+
+
             <Link to="/login">Already Register?</Link>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 };

@@ -12,9 +12,12 @@ const Service = ({ service }) => {
             <h5>Price: {price}</h5>
             <p>{description}</p>
             <Link to={`/booking/${price}`}>
-                <button className="btn btn-secondary">Book {name}</button>
+                <button className="btn btn-success">Details {name}</button>
             </Link >
         </div>
+
+
+
 
     );
 };

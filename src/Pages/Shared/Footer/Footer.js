@@ -4,7 +4,7 @@ const Footer = () => {
     return (
 
         <div className="footer">
-            <p>© all right reserved MediCare General Hospital</p>
+            <p>© all right reserved Mahfuz Rahman</p>
         </div>
     );
 };

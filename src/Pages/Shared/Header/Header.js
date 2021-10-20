@@ -3,11 +3,12 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
+import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
-        <>
+        <><div className="header">
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">MediCare</Navbar.Brand>
@@ -24,13 +25,14 @@ const Header = () => {
                         }
 
                         <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
+                            <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
 
                     </Navbar.Collapse>
 
                 </Container>
             </Navbar>
+        </div>
         </>
     );
 };

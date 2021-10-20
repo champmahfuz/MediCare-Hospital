@@ -1,6 +1,6 @@
 # Medicare Genereal Hospital
 
-Visit our website [Create React App](https://eager-noether-c223c7.netlify.app).
+Visit our website [MediCare](https://eager-noether-c223c7.netlify.app).
 
 - Specialized Operation theatre
 - Top class medical officer

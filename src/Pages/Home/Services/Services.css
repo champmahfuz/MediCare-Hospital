@@ -1,9 +1,10 @@
 .service-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 15px;
+    grid-gap: 50px;
     /* padding: 15px; */
-    margin: 15px;
+    margin: 50px;
+   
    
 }
 /* responsive */

@@ -15,9 +15,9 @@
     },
     {
         "id": 3,
-        "name": "COVID test",
+        "name": "COVID Test",
         "price": "5000",
-        "description": "Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.",
+        "description": "Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriouslymedical attention.",
         "img": "https://i.ibb.co/2jn5BNt/covid-test.jpg"
     },
     {
@@ -29,9 +29,9 @@
     },
     {
         "id": 5,
-        "name": "Emergency Ambulance Service",
+        "name": "Ambulance Service",
         "price": "5000",
-        "description": "24 hours ambulance service available .Many of our ambulance models have integrated alarm and work lights. Integrated lights are beautifully following with the shapes of the basic vehicle design.",
+        "description": "24 hours ambulance service available .Many of our ambulance models have integrated alarm and work lights. Integrated lights are beautifully following with the shapes of the basic vehicle.",
         "img": "https://i.ibb.co/59VP5nJ/emergency.jpg"
     },
     {
