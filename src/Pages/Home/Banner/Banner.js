@@ -15,6 +15,7 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
+
                         <h3>Specialized Operation Theater </h3>
                         <p >All facilities & all new technology remain in the operation theater</p>
                     </Carousel.Caption>
