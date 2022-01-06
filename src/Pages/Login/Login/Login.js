@@ -44,6 +44,7 @@ const Login = () => {
 
     }
     //end
+    //end here
     return (
         <div>
             <h2 className="text-primary">Please Login</h2>
@@ -72,6 +73,7 @@ const Login = () => {
             <br />
             <br />
             <br />
+
             <button onClick={handleGoogleLogin} type="submit" className="btn btn-primary">Google Sign In</button>
             <br />
             <Link to="/register">New User?</Link>
